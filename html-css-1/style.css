@@ -1,0 +1,111 @@
+header {
+    height: 5vh;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#main-header div {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: 17px;
+}
+#main-header nav {
+    font-size: 20px;
+    width: 40vw;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 20px;
+    right: 40px;
+}
+.first-section {
+    height:25vh;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: black;
+    color: rgb(221, 221, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-row-1st {
+    height: 175px;
+    width: 175px;
+    background-color: rgb(97, 212, 183);
+    display: flex;
+    position: relative;
+    top: 175px;
+    left: 75px;
+
+
+}
+.top-row-2nd {
+    height: 175px;
+    width: 175px;
+    box-sizing: border-box;
+    border: 1px rgb(7, 7, 7);
+    background-color: rgb(97, 212, 183);
+    display: flex;
+    position: relative;
+    left: 375px;
+}
+.top-row-3rd {
+    height: 175px;
+    width: 175px;
+    box-sizing: border-box;
+    border: 1px rgb(7, 7, 7);
+    background-color: rgb(97, 212, 183);
+    display: flex;
+    position: relative;
+    left: 700px;
+    bottom: 170px;
+}
+
+.mid-row-1st {
+    height: 175px;
+    width: 375px;
+    background-color: rgb(224, 181, 88);
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    left: 75px;
+}
+.mid-row-2nd {
+    height: 175px;
+    width: 375px;
+    background-color: rgb(224, 181, 88);
+    display: flex;
+    position: relative;
+    left: 500px;
+    bottom: 275px;
+}
+footer {
+    height: 10vh;
+    background-color: rgb(49, 60, 85);
+}
+
+.text-box {
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+}
+.image {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    bottom: 430px;
+    left: 575px;
+}
