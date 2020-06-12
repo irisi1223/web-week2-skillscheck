@@ -30,9 +30,9 @@ let phrase = ''
 
 // Code Here
 
-    if (lovesCode) {
+    if (lovesCode === true) {
     return 'I love code'
-}else { 
+}else if(lovesCode === false){ 
 return 'I do not love too code'
 }
 //////////////////Wrap Up////////////////////

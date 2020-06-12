@@ -66,6 +66,7 @@ const faveColors = ['red', 'green', 'black']
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
 //Code Here
+faveColors.push('yellow')
 
 //////////////////PROBLEM 10////////////////////
 
@@ -73,12 +74,21 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
+let middleNums = numbers.slice(1, 4)
 
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
+let me = {
+	firstName: 'Jacob Bushman',
+	state: 'Utah',
+	age: 25,
+	greeter: function(){
+		console.log('Hello! My name is ' + me.firstName  'and I live in ' + me.state);
+	}
+}
 
 //////////////////PROBLEM 12////////////////////
 
@@ -86,11 +96,17 @@ const numbers = [1, 2, 3, 4, 5]
 
 // Code here
 
+
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
 //Code Here
+let reversed = []
+function arrayReverser(arr){
+	for(let i = reversed.lenth; i >= 0; i--){
+		console.log(reversed[i], i)
+};
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 

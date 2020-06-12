@@ -17,7 +17,7 @@ let  yourName = 'Jacob Bushman'
 
 // Code Here
 function setGroceryListTitle(x) {
-    return ("XPRAM's Grovery list")
+    return ("XPRAM's Grocery list")
 }
 
 //////////////////STEP 4////////////////////
