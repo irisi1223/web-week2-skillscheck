@@ -75,7 +75,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 let middleNums = numbers.slice(1, 4)
-
+// console.log(numbers)
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
@@ -85,8 +85,8 @@ let me = {
 	firstName: 'Jacob Bushman',
 	state: 'Utah',
 	age: 25,
-	greeter: function(){
-		console.log('Hello! My name is ' + me.firstName  'and I live in ' + me.state);
+	greeter: function greeting(){
+		console.log('Hello! My name is ' + me.firstName + 'and I live in ' + me.state);
 	}
 }
 

@@ -29,11 +29,12 @@ let phrase = ''
 //Create an if statement that checks to see if the lovesCode variable is equal to true. If it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
 
 // Code Here
-
+function doILoveCode(lovesCode){
     if (lovesCode === true) {
-    return 'I love code'
-}else if(lovesCode === false){ 
-return 'I do not love too code'
+     return phrase='I love code'
+    }else if(lovesCode === false){ 
+     return phrase='I do not love too code'
+    }
 }
 //////////////////Wrap Up////////////////////
 // Refresh the index.html page in your browser. You should now see a poem that uses the variables from above.
