@@ -53,6 +53,9 @@ function oddChecker(num) {
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+function iLove(name, love){
+	return myName + ' loves coding! '
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -60,6 +63,7 @@ function oddChecker(num) {
 const faveColors = ['red', 'green', 'black']
 
 //Code Here
+colorCopy = faveColors.slice()
 
 //////////////////PROBLEM 9////////////////////
 
@@ -86,7 +90,7 @@ let me = {
 	state: 'Utah',
 	age: 25,
 	greeter: function greeting(){
-		console.log('Hello! My name is ' + me.firstName + 'and I live in ' + me.state);
+		console.log('Hello! My name is ' + me.firstName + ' and I live in ' + me.state);
 	}
 }
 
@@ -95,6 +99,10 @@ let me = {
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
+function bigOrSmall(arr){
+	let answers = {};
+	for(let i)
+}
 
 
 //////////////////PROBLEM 13////////////////////
@@ -104,8 +112,10 @@ let me = {
 //Code Here
 let reversed = []
 function arrayReverser(arr){
-	for(let i = reversed.lenth; i >= 0; i--){
-		console.log(reversed[i], i)
+	for(let i = 0; i >= arr.length; i--){
+		reversed[i], i;
+	}
+	return reversed;	
 };
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
@@ -119,12 +129,22 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, use .map to create a new array that doubles each number. Call the new array 'doubled'.
 
 // Code Here
+let doubled = myNumbers.map(function(element){
+	return element * 2
+})
 
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
 // Code Here
+
+function filteredNumbers(arr){
+	let filtered = []
+	for(let i = 0; i < 100; i++){
+		filtered.push(arr[i])
+	}
+}
 
 //////////////////PROBLEM 16////////////////////
 
@@ -144,6 +164,9 @@ const myNumbers = [3, 55, 788, 2, 1]
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
+let forTheLoveOfGeorge = notGeorge.map(function(element){
+	return element 'George'
+})
 
 //////////////////PROBLEM 19////////////////////
 
