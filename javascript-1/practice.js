@@ -139,24 +139,29 @@ let doubled = myNumbers.map(function(element){
 
 // Code Here
 
-function filteredNumbers(arr){
-	let filtered = []
-	for(let i = 0; i < 100; i++){
-		filtered.push(arr[i])
-	}
-}
+
+let filteredNumbers = myNumbers.filter(function(element){
+	return element < 100;
+});
 
 //////////////////PROBLEM 16////////////////////
 
 // Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
 
 // Code Here
+const total = myNumbers.reduce(function(acc, curr){
+	return acc + curr;
+})
 
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // Code Here
+let myNumbersIndex = [];
+myNumbers.forEach(function(myNumbersIndex){
+
+});
 
 //////////////////PROBLEM 18////////////////////
 
@@ -165,8 +170,8 @@ const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
 let forTheLoveOfGeorge = notGeorge.map(function(element){
-	return element 'George'
-})
+	return element 'George';
+});
 
 //////////////////PROBLEM 19////////////////////
 
@@ -181,7 +186,7 @@ const people = [
 ]
 
 // Code Here
-
+let enemies = people.filter(people.friend => enemies === false)
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
